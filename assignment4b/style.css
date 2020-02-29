@@ -1,17 +1,70 @@
 *{
   margin: 0;
   padding: 0;
+}
+body {
+  width: 500px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-family: 'Satisfy', ;
   font-size: 40px;
 }
 
+p {
+  line-height: 2.4;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #E71BB6;
+}
+
+a:visited {
+  color: #FF46D2;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #FFFFFF;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #FFFFFF;
+}
+
+a:active {
+  background: #E14FBE;
+  color: #FFFFFF;
+}
+
 p{
-  background-color: pink;
-  padding: 10px;
-  border: 1px solid lightpink;
-  border-radius: 25px;
-  margin: 60px;
-  height: 100px;
-  width: 400px;
-  text-align:center;
-  vertical-align: middle;
+  background: rgba(252,236,252,1);
+  background: -moz-linear-gradient(-45deg, rgba(252,236,252,1) 0%, rgba(251,166,225,0.79) 26%, rgba(253,137,215,0.37) 77%, rgba(255,124,216,0.18) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,236,252,1)), color-stop(26%, rgba(251,166,225,0.79)), color-stop(77%, rgba(253,137,215,0.37)), color-stop(100%, rgba(255,124,216,0.18)));
+  background: -webkit-linear-gradient(-45deg, rgba(252,236,252,1) 0%, rgba(251,166,225,0.79) 26%, rgba(253,137,215,0.37) 77%, rgba(255,124,216,0.18) 100%);
+  background: -o-linear-gradient(-45deg, rgba(252,236,252,1) 0%, rgba(251,166,225,0.79) 26%, rgba(253,137,215,0.37) 77%, rgba(255,124,216,0.18) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(252,236,252,1) 0%, rgba(251,166,225,0.79) 26%, rgba(253,137,215,0.37) 77%, rgba(255,124,216,0.18) 100%);
+  background: linear-gradient(135deg, rgba(252,236,252,1) 0%, rgba(251,166,225,0.79) 26%, rgba(253,137,215,0.37) 77%, rgba(255,124,216,0.18) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8', GradientType=1 );
+  -webkit-box-shadow: 13px 9px 5px 0px rgba(0,0,0,0.37);
+-moz-box-shadow: 13px 9px 5px 0px rgba(0,0,0,0.37);
+box-shadow: 13px 9px 5px 0px rgba(0,0,0,0.37);
+background-color: #fd89d7;
+padding: 10px;
+border: 2px solid #FB1DC5;
+border-radius: 25px;
+margin: 60px;
+height: 100px;
+width: 400px;
+text-align:center;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
