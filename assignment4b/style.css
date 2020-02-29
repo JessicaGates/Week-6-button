@@ -5,7 +5,13 @@
 }
 
 p{
-  font-family: 'Satisfy', ;
-  background-color: lightpink;
-  border: 1px solid pink;
+  background-color: pink;
+  padding: 10px;
+  border: 1px solid lightpink;
+  border-radius: 25px;
+  margin: 60px;
+  height: 100px;
+  width: 400px;
+  text-align:center;
+  vertical-align: middle;
 }
